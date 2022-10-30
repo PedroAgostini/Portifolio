@@ -1,0 +1,123 @@
+body{
+    background-image: url(https://miro.medium.com/max/1400/0*D4c3Wot2boeghGqI.gif);
+    background-size: 100%;
+}
+
+header{
+	padding: 20px 0;
+}
+
+.cabecalho{
+	width: 940px;
+	margin: 0 auto;
+}
+
+.titulo-principal{
+    text-align: center;
+    margin-bottom: -12px;
+    font-size: 60px;
+    color: #F8F8FF;
+    text-transform: uppercase;
+    font-family: Consolas;
+}
+
+.titulo-principal:hover{
+	color: #F8F8FF;
+	transform: scale(1.1);
+	transition-delay: 0ms;
+  } 
+
+nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 50px 0 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav a {
+    font-family: Consolas;
+    text-transform: uppercase;
+    color: #F8F8FF;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav li{
+    font-family: Consolas;
+    margin: 0 0 10px 10px;
+    text-transform: uppercase;
+    color: #FFF8DC;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #D3D3D3;
+    text-decoration: underline;
+}
+
+.foto {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	position: relative;
+    margin: 40px auto;
+  }
+  
+  .foto img {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+  }
+
+  h3{
+    text-align: center;
+    font-family: Consolas;
+    font-size: 45px;
+    color: #F8F8FF;
+    text-transform: uppercase; 
+    margin-top: 50px; 
+    text-decoration: underline;
+}
+
+  h3:hover{
+    color: #F8F8FF;
+	transform: scale(1.1);
+	transition-delay: 0ms;
+}
+
+p{
+    font-family: Consolas;
+    padding: 0 100px 0 100px;
+    color: #F8F8FF;
+    font-size: 30px;
+    text-align: center;
+}
+
+.copyright{
+    margin-top: 100px;
+    font-family: Consolas;
+    text-transform: uppercase;
+    color: #F8F8FF;
+    font-size: 20px;
+    text-align: center;
+  }
+ 
+.copyright a:hover{
+    color: #D3D3D3;
+    text-decoration: underline;
+}
+
+footer  a{
+  text-transform: uppercase;
+  color: #F8F8FF;
+  text-decoration: none;
+}
