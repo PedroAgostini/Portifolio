@@ -4,12 +4,12 @@ body{
 }
 
 header{
-	padding: 20px 0;
+     padding: 20px 0;
 }
 
 .cabecalho{
-	width: 940px;
-	margin: 0 auto;
+     width: 940px;
+     margin: 0 auto;
 }
 
 .titulo-principal{
@@ -19,12 +19,14 @@ header{
     color: #F8F8FF;
     text-transform: uppercase;
     font-family: Consolas;
+    cursor: default;
 }
 
 .titulo-principal:hover{
-	color: #F8F8FF;
-	transform: scale(1.1);
-	transition-delay: 0ms;
+    color: #F8F8FF;
+    transform: scale(1.1);
+    transition-delay: 0ms;
+    cursor: default;
   } 
 
 nav{
@@ -56,6 +58,7 @@ nav li{
     font-weight: bold;
     font-size: 25px;
     text-decoration: none;
+    cursor: default;
 }
 
 nav a:hover {
@@ -64,21 +67,21 @@ nav a:hover {
 }
 
 .foto {
-	border-radius: 50%;
-	width: 150px;
-	height: 150px;
-	overflow: hidden;
-	position: relative;
-   	margin: 40px auto;
+     border-radius: 50%;
+     width: 150px;
+     height: 150px;
+     overflow: hidden;
+     position: relative;
+     margin: 40px auto;
   }
   
-  .foto img {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-  }
+.foto img {
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+}
 
-  h3{
+h3{
     text-align: center;
     font-family: Consolas;
     font-size: 45px;
@@ -86,12 +89,14 @@ nav a:hover {
     text-transform: uppercase; 
     margin-top: 50px; 
     text-decoration: underline;
+    cursor: default;
 }
 
-  h3:hover{
+h3:hover{
     color: #F8F8FF;
-	transform: scale(1.1);
-	transition-delay: 0ms;
+    transform: scale(1.1);
+    transition-delay: 0ms;
+    cursor: default;
 }
 
 p{
@@ -100,6 +105,7 @@ p{
     color: #F8F8FF;
     font-size: 30px;
     text-align: center;
+    cursor: default;
 }
 
 .copyright{
@@ -117,7 +123,7 @@ p{
 }
 
 footer  a{
-  text-transform: uppercase;
-  color: #F8F8FF;
-  text-decoration: none;
+    text-transform: uppercase;
+    color: #F8F8FF;
+    text-decoration: none;
 }
