@@ -1,0 +1,108 @@
+body{
+    background-image: url(https://miro.medium.com/max/1400/0*D4c3Wot2boeghGqI.gif);
+    background-size: 100%;
+}
+
+header{
+	padding: 20px 0;
+}
+
+.cabecalho{
+	width: 940px;
+	margin: 0 auto;
+}
+
+.titulo-principal{
+    text-align: center;
+    margin-bottom: -12px;
+    font-size: 60px;
+    color: #F8F8FF;
+    text-transform: uppercase;
+    font-family: Consolas;
+    cursor: default;
+}
+
+.titulo-principal:hover{
+	color:#F8F8FF;
+	transform: scale(1.1);
+	transition-delay: 0ms;
+    cursor: default;
+  } 
+
+nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 50px 0 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav a {
+    font-family: Consolas;
+    text-transform: uppercase;
+    color: #F8F8FF;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav li{
+    font-family: Consolas;
+    margin: 0 0 10px 10px;
+    text-transform: uppercase;
+    color: #F8F8FF;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    cursor: default;
+}
+
+nav a:hover {
+    color: #D3D3D3;
+    text-decoration: underline;
+}
+
+.titulo-secundario{
+        text-align: center;
+        font-family: Consolas;
+        font-size: 45px;
+        color: #F8F8FF;
+        text-transform: uppercase; 
+        margin-top: 90px; 
+        text-decoration: underline;
+        cursor: default;
+}
+
+.redes img{
+    width: 120px;
+    margin-right: 35px;
+}
+
+.redes img:hover{
+    transform: scale(1.1);
+}
+
+.copyright{
+    margin-top: 100px;
+    font-family: Consolas;
+    text-transform: uppercase;
+    color: #F8F8FF;
+    font-size: 20px;
+    text-align: center;
+    cursor: default;
+  }
+ 
+.copyright a:hover{
+    color: #D3D3D3;
+    text-decoration: underline;
+}
+
+footer  a{
+  text-transform: uppercase;
+  color: #F8F8FF;
+  text-decoration: none;
+}
